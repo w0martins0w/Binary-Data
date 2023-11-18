@@ -1,0 +1,153 @@
+:root {
+	font-size: 1rem;
+	font-family: Consolas, SegoeUI;
+}
+
+body {
+	margin: 0.8rem 0px 0.8rem 0px;
+	display: block;
+	background-color: white;
+	background-image: url("resources/background.bmp");
+	background-repeat: repeat;
+	color: black;
+}
+
+/* Card */
+
+body > section {
+	margin: 0px auto 0.8rem auto;
+	display: block;
+	border: 0px;
+	padding: 1.24rem;
+	width: calc(84% - 1.24rem * 2);
+	height: auto;
+	font-size: 0.98rem;
+	background-color: #fdfdfd;
+	text-align: left;
+	box-shadow: 0px 0px 0.8rem #b7b7b7;
+	overflow: hidden;
+	opacity: 0.89;
+}
+
+body > section:last-child {
+	margin-bottom: 0px;
+}
+
+/* Card Content */
+
+body > section section {
+	margin: 0px auto 0.4rem auto;
+	display: block;
+	padding: 0.74rem;
+	width: calc(100% - 0.74rem * 2);
+	height: auto;
+	background-color: transparent;
+} 
+
+body > section h1 {
+	margin: 0px auto 0.7rem auto;
+	display: block;
+	font-size: 1.98rem;
+	font-weight: bold;
+	background-color: transparent;
+	text-align: center;
+	color: darkblue;
+}
+
+body > section hr {
+	margin: 0px auto 0.7rem auto;
+	display: block;
+	background-color: transparent;
+}
+
+body > section h2 {
+	margin: 0px auto 0.6rem auto;
+	display: block;
+	font-size: 1.54rem;
+	font-weight: bold;
+	background-color: transparent;
+	text-align: center;
+	color: black;
+}
+
+body > section h3 {
+	margin: 0px auto 0.6rem auto;
+	display: block;
+	font-size: 1.28rem;
+	font-weight: bold;
+	background-color: transparent;
+	text-align: center;
+	color: black;
+}
+
+body > section section > hr {
+	margin: 0px auto 0.6rem auto;
+	display: block;
+	background-color: transparent;
+}
+
+body > section img {
+	margin: 0px auto 0.5rem auto;
+	display: block;
+	width: 75%;
+	height: auto;
+	background-color: transparent;
+}
+
+body > section p {
+	margin: 0px auto 0.5rem auto;
+	display: block;
+	font-size: 0.98rem;
+	background-color: transparent;
+}
+
+body > section a {
+	margin: 0;
+	display: inline-block;
+	font-size: 0.98rem;
+	background-color: transparent;
+	color: blue;
+	text-decoration: none;
+}
+
+body > section a:visited {
+	color: indianred;
+}
+
+body > section a:hover {
+	color: darkolivegreen;
+}
+
+body > section ul {
+	margin: 0px auto 0.1rem auto;
+	display: block;
+	padding-left: 4%;
+	background-color: transparent;
+}
+
+body > section li {
+	margin: 0px auto 0.1rem auto;
+	display: list-item;
+	font-size: 0.98rem;
+	background-color: transparent;
+}
+
+body > section *:last-child {
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 840px) {
+
+	:root {
+		font-size: 1.3rem;
+	}
+
+}
+
+@media screen and (max-width: 280px) {
+
+	:root {
+		font-size: 0.7rem;
+	}
+
+}
