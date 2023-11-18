@@ -19,7 +19,7 @@ body > section {
 	display: block;
 	border: 0px;
 	padding: 1.24rem;
-	width: calc(84% - 1.24rem * 2);
+	width: calc(75% - 1.24rem * 2);
 	height: auto;
 	font-size: 0.98rem;
 	background-color: #fdfdfd;
@@ -89,7 +89,7 @@ body > section section > hr {
 body > section img {
 	margin: 0px auto 0.5rem auto;
 	display: block;
-	width: 75%;
+	width: 50%;
 	height: auto;
 	background-color: transparent;
 }
